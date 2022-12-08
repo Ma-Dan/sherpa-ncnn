@@ -13,6 +13,7 @@ set(sherpa_srcs
   lstm-model.cc
   conv-emformer-model.cc
   model.cc
+  meta-data.cc
   symbol-table.cc
   sherpa.cc
 )

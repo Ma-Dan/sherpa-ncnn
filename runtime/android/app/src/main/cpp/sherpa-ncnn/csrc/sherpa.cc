@@ -32,12 +32,12 @@ namespace sherpa {
 
         sherpa_ncnn::ModelConfig config;
 
-        config.encoder_param = std::string(pModelDir) + "/encoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param";
-        config.encoder_bin = std::string(pModelDir) + "/encoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin";
-        config.decoder_param = std::string(pModelDir) + "/decoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param";
-        config.decoder_bin = std::string(pModelDir) + "/decoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin";
-        config.joiner_param = std::string(pModelDir) + "/joiner_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param";
-        config.joiner_bin = std::string(pModelDir) + "/joiner_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin";
+        config.encoder_param = std::string(pModelDir) + "/encoder_jit_trace-pnnx.ncnn.param";
+        config.encoder_bin = std::string(pModelDir) + "/encoder_jit_trace-pnnx.ncnn.bin";
+        config.decoder_param = std::string(pModelDir) + "/decoder_jit_trace-pnnx.ncnn.param";
+        config.decoder_bin = std::string(pModelDir) + "/decoder_jit_trace-pnnx.ncnn.bin";
+        config.joiner_param = std::string(pModelDir) + "/joiner_jit_trace-pnnx.ncnn.param";
+        config.joiner_bin = std::string(pModelDir) + "/joiner_jit_trace-pnnx.ncnn.bin";
         config.num_threads = 4;
 
         std::string tokens = std::string(pModelDir) + "/tokens.txt";

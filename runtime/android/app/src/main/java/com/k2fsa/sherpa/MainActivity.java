@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
   private static final int MAX_QUEUE_SIZE = 2500;  // 100 seconds audio, 1 / 0.04 * 100
   private static final List<String> resource = Arrays.asList(
           "tokens.txt",
-          "encoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param",
-          "encoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin",
-          "decoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param",
-          "decoder_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin",
-          "joiner_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.param",
-          "joiner_jit_trace-v2-epoch-11-avg-2-pnnx.ncnn.bin"
+          "encoder_jit_trace-pnnx.ncnn.param",
+          "encoder_jit_trace-pnnx.ncnn.bin",
+          "decoder_jit_trace-pnnx.ncnn.param",
+          "decoder_jit_trace-pnnx.ncnn.bin",
+          "joiner_jit_trace-pnnx.ncnn.param",
+          "joiner_jit_trace-pnnx.ncnn.bin"
   );
 
   private boolean startRecord = false;
